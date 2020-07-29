@@ -25,13 +25,13 @@ if st.sidebar.button("About"):
     st.text("")
     
     html_temp = """
-    <a href="https://www.linkedin.com/in/maaz-ansari-755360166/" target="_blank">LinkedIN</a>
+    <a href="https://www.linkedin.com/in/maaz-ansari-755360166/" target="_blank">LinkedIn</a>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
         
     st.text("")
-    st.write('Phone: +91 9022169400')
-    st.write('E-mail: maaz.ansari1721@nmims.edu.in')
+    st.markdown('📱: +91 9022169400')
+    st.markdown('📧: maaz.ansari1721@nmims.edu.in')
     
     
     
